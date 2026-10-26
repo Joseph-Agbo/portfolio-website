@@ -8,7 +8,7 @@ const projects = [
     image: "/images/project-one.png",
     title: "Professional Portfolio Website",
     desc: "A website that tells a whole lot about my profession, tells avery audience all they need to know about me, and showcasing my frontend experience through unique functionality and presentable designs.",
-    demo: "#",
+    demo: "https://josephagbo.vercel.app",
     github: "https://github.com/Joseph-Agbo",
   },
   {

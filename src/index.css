@@ -321,3 +321,16 @@ footer { border-top: 1px solid var(--border); padding: 40px 0; }
 .project-card:hover .project-screenshot {
   transform: scale(1.03);
 }
+
+/* Large desktop screens only */
+@media (min-width: 1025px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+
+  .project-card {
+    width: 100%;
+    min-width: 0;
+  }
+}
