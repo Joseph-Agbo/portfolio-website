@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Hobbies from './components/Hobbies'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Skills />
       <Projects />
       <Experience />
+      <Hobbies />
       <Contact />
       <Footer />
     </>

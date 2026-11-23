@@ -233,6 +233,32 @@ footer { border-top: 1px solid var(--border); padding: 40px 0; }
 .footer-social-link { width: 38px; height: 38px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--muted); text-decoration: none; transition: border-color 0.2s, color 0.2s; }
 .footer-social-link:hover { border-color: var(--accent); color: var(--accent); }
 
+/* Hobbies */
+.hobby-item {color: rgb(197, 194, 194);}
+.hobby-gap {display: flex; gap: 10px; flex-wrap: wrap; width: 100%; margin-top: 20px;}
+.hobby-p {color: white;}
+.football-container {border: 1px solid white; border-radius: 30px; margin-top: 10px; padding: 20px 15px;}
+.chelsea-p {color: cornflowerblue; margin-top: 20px; margin-bottom: 30px;}
+.music-p {color: cornflowerblue; margin-top: 20px; margin-bottom: 10px;}
+.football-writeup {color: rgb(199, 194, 194); margin-top: 10px;}
+.music-writeup {color: rgb(199, 194, 194);}
+.hobby-border {margin-bottom: 25px;}
+.artist-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px
+}
+.artist-space {margin-top: 15px;}
+.movie {margin-top:30px}
+.fav-space {margin-top: 25px;}
+.fav-movie {margin-bottom: 10px;}
+.hobby-pad {margin-bottom: 50px;}
+.nick {margin-top: 30px;}
+.nick-color {color: cornflowerblue;}
+
 /* ANIMATIONS */
 @media (prefers-reduced-motion: no-preference) {
   .fade-up { opacity: 0; transform: translateY(24px); transition: opacity 0.55s ease, transform 0.55s ease; }
@@ -333,4 +359,33 @@ footer { border-top: 1px solid var(--border); padding: 40px 0; }
     width: 100%;
     min-width: 0;
   }
+}
+
+/* Screens 1024px and above */
+@media (min-width: 1024px) {
+  .stack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .grid-stak {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+.stakimage {
+  height:250px;
+}
+.stakimage-div {
+  min-width: 0;
+}
+.art-space {
+  margin-top: 15px;
+}
+.pac-space {
+  margin-top: 35px;
+}
 }
